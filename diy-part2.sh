@@ -12,4 +12,4 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-wget https://raw.githubusercontent.com/openwrt/packages/master/net/ddns-scripts/files/usr/lib/ddns/update_cloudflare_com_v4.sh -o feeds/packages/net/ddns-scripts/files/update_cloudflare_com_v4.sh
+wget https://raw.githubusercontent.com/openwrt/packages/master/net/ddns-scripts/files/usr/lib/ddns/update_cloudflare_com_v4.sh -O feeds/packages/net/ddns-scripts/files/update_cloudflare_com_v4.sh
