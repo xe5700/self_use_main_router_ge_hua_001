@@ -17,3 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #mkdir -p feeds/luci/applications/luci-app-smartdns
 #git clone https://github.com/pymumu/luci-app-smartdns/ -b lede ./feeds/luci/applications/luci-app-smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
